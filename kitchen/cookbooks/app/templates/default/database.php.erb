@@ -1,0 +1,17 @@
+<?php
+// database.ph.erb
+class DATABASE_CONFIG {
+
+	public $default = array(
+		'datasource' => '<%= @node[:app][:cakephp][:database][:datasource] %>',
+		'persistent' => <%= @node[:app][:cakephp][:database][:presistent] %>,
+		'host' => '<%= @node[:app][:cakephp][:database][:host] %>',
+		'port' => <%= @node[:app][:cakephp][:database][:port] %>,
+		'login' => '<%= @node[:app][:cakephp][:database][:user] %>',
+		'password' => '<%= @node[:app][:cakephp][:database][:password] %>',
+		'database' => '<%= @node[:app][:cakephp][:database][:database] %>',
+		'prefix' => '<%= @node[:app][:cakephp][:database][:prefix] %>',
+		'encoding' => '<%= @node[:app][:cakephp][:database][:encoding] %>',
+	);
+}
+

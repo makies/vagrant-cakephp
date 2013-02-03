@@ -2,18 +2,12 @@
 # Cookbook Name:: develop
 # Recipe:: default
 #
-# Copyright 2013, YOUR_COMPANY_NAME
+# Copyright 2013, makies
 #
-# All rights reserved - Do Not Redistribute
-#
-
+# 開発環境独自のRecipe読み込み、パッケージインストール
 
 include_recipe "vim"
-include_recipe "emacs"
 include_recipe "tmux"
-include_recipe "screen"
-include_recipe "ssh_known_hosts"
-include_recipe "chef::client"
 
 package "lv"
 package "tree"

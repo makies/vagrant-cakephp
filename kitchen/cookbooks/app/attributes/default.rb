@@ -1,0 +1,19 @@
+app_name='cakephp'
+default['app'][app_name]['db_user'] = 'cakephp'
+default['app'][app_name]['db_pass'] = 'cakephp'
+default['app'][app_name]['db_name'] = 'cakephp'
+default['app'][app_name]['server_name'] = 'cakephp.example.com'
+default['app'][app_name]['docroot'] = '/app'
+default['app'][app_name]['database_config_path'] = '/app/app/Config/database.php'
+
+default['app'][app_name]['database']['datasource'] = 'Database/Mysql'
+default['app'][app_name]['database']['host'] = 'localhost'
+default['app'][app_name]['database']['presistent'] = false
+default['app'][app_name]['database']['user'] = 'root'
+default['app'][app_name]['database']['password'] = ''
+default['app'][app_name]['database']['encoding'] = 'utf8'
+default['app'][app_name]['database']['prefix'] = ''
+default['app'][app_name]['database']['database'] = 'cake'
+default['app'][app_name]['database']['port'] = 3306
+default['app'][app_name]['database']['privileges'] = [:select,:update,:insert]
+default['app'][app_name]['database']['allow_host'] = 'localhost'

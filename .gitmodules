@@ -55,3 +55,6 @@
 [submodule "kitchen/opscode/ssh_known_hosts"]
 	path = kitchen/opscode/ssh_known_hosts
 	url = https://github.com/opscode-cookbooks/ssh_known_hosts.git
+[submodule "kitchen/opscode/postgresql"]
+	path = kitchen/opscode/postgresql
+	url = https://github.com/opscode-cookbooks/postgresql.git
