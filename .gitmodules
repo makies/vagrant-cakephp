@@ -1,0 +1,57 @@
+[submodule "kitchen/opscode/build-essential"]
+	path = kitchen/opscode/build-essential
+	url = https://github.com/opscode-cookbooks/build-essential.git
+[submodule "kitchen/opscode/apt"]
+	path = kitchen/opscode/apt
+	url = https://github.com/opscode-cookbooks/apt.git
+[submodule "kitchen/opscode/ubuntu"]
+	path = kitchen/opscode/ubuntu
+	url = https://github.com/opscode-cookbooks/ubuntu.git
+[submodule "kitchen/opscode/apache2"]
+	path = kitchen/opscode/apache2
+	url = https://github.com/opscode-cookbooks/apache2.git
+[submodule "kitchen/opscode/application"]
+	path = kitchen/opscode/application
+	url = https://github.com/opscode-cookbooks/application.git
+[submodule "kitchen/opscode/application_php"]
+	path = kitchen/opscode/application_php
+	url = https://github.com/opscode-cookbooks/application_php.git
+[submodule "kitchen/opscode/openssl"]
+	path = kitchen/opscode/openssl
+	url = https://github.com/opscode-cookbooks/openssl.git
+[submodule "kitchen/opscode/database"]
+	path = kitchen/opscode/database
+	url = https://github.com/opscode-cookbooks/database.git
+[submodule "kitchen/opscode/mysql"]
+	path = kitchen/opscode/mysql
+	url = https://github.com/opscode-cookbooks/mysql.git
+[submodule "kitchen/opscode/cron"]
+	path = kitchen/opscode/cron
+	url = https://github.com/opscode-cookbooks/cron.git
+[submodule "kitchen/opscode/emacs"]
+	path = kitchen/opscode/emacs
+	url = https://github.com/opscode-cookbooks/emacs.git
+[submodule "kitchen/opscode/vim"]
+	path = kitchen/opscode/vim
+	url = https://github.com/opscode-cookbooks/vim.git
+[submodule "kitchen/opscode/tmux"]
+	path = kitchen/opscode/tmux
+	url = https://github.com/opscode-cookbooks/tmux.git
+[submodule "kitchen/opscode/screen"]
+	path = kitchen/opscode/screen
+	url = https://github.com/opscode-cookbooks/screen.git
+[submodule "kitchen/opscode/ntp"]
+	path = kitchen/opscode/ntp
+	url = https://github.com/opscode-cookbooks/ntp.git
+[submodule "kitchen/opscode/php"]
+	path = kitchen/opscode/php
+	url = https://github.com/opscode-cookbooks/php.git
+[submodule "kitchen/opscode/chef"]
+	path = kitchen/opscode/chef
+	url = https://github.com/opscode-cookbooks/chef.git
+[submodule "kitchen/opscode/chef-client"]
+	path = kitchen/opscode/chef-client
+	url = https://github.com/opscode-cookbooks/chef-client.git
+[submodule "kitchen/opscode/ssh_known_hosts"]
+	path = kitchen/opscode/ssh_known_hosts
+	url = https://github.com/opscode-cookbooks/ssh_known_hosts.git
