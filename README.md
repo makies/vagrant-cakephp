@@ -23,6 +23,7 @@
 
 	$ git clone http://github.com/makies/vagrant-cakephp.git server
 	$ cd server
+	$ git submodule update --init
 
 	// vm起動
 	$ vagrant up
